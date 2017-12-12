@@ -1,4 +1,4 @@
-package br.com.casnav;
+package br.com.casnav.mauro;
 
 import java.io.Serializable;
 
@@ -22,7 +22,7 @@ public class Calculadora implements Serializable{
 		return x * a;
 	}
 
-	public double divisao(int x, int a) {
+	public int divisao(int x, int a) {
 		
 		return x /a;
 	}
